@@ -14,6 +14,6 @@ Inside this repository, you'll find a diverse set of tasks, including code, note
 I'm thrilled to collaborate with the JMM team, learn from experienced professionals, and make a meaningful impact in the AI domain. Join me as I navigate the world of Full Stack AI, one task at a time.
 
 📬 **Get in Touch**
-Interested in discussing a project, sharing insights, or collaborating on AI initiatives? Don't hesitate to reach out! You can contact me at [YourEmail@email.com].
+Interested in discussing a project, sharing insights, or collaborating on AI initiatives? Don't hesitate to reach out! You can contact me at syedanwarafridi00@email.com.
 
 Let's code, learn, and innovate together!
