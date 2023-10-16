@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>BERT Text Classification</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h1>BERT Text Classification</h1>
+    <form action="/predict" method="post">
+        <label for="text">Enter a text:</label><br>
+        <textarea name="text" rows="4" cols="50"></textarea><br>
+        <input type="submit" value="Predict">
+    </form>
+    <p>Predicted Class: {{ predicted_class_label }}</p>
+</body>
+</html>
