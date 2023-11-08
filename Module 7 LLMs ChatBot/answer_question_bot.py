@@ -11,7 +11,7 @@ import os
 
 app = Flask(__name__)
 
-os.environ['OPENAI_API_KEY'] = "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"
+os.environ['OPENAI_API_KEY'] = "OPEN_API_KEY"
 
 def extract_text_from_pdf(file_path):
     text = ''
