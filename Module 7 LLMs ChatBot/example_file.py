@@ -13,7 +13,7 @@ from langchain.chains.question_answering import load_qa_chain
 from langchain.llms import OpenAI
 
 import os
-os.environ['OPENAI_API_KEY'] = "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"
+os.environ['OPENAI_API_KEY'] = "OPENAIKEY"
 # os.environ['SERPAPI_API_KEY'] = ""
 
 pdfreader = PdfReader('CRM scope of work (1).pdf')
