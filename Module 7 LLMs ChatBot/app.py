@@ -9,7 +9,8 @@ app = Flask(__name__)
 bootstrap = Bootstrap(app)
 
 # Set your OpenAI API key using an environment variable
-os.environ["OPENAI_API_KEY"] = 'OPENAIKEY'
+# os.environ["OPENAI_API_KEY"] = 'OPENAIKEY'
+os.environ["OPENAI_API_KEY"] = 'KEY'
 
 @app.route('/')
 def chatbot():

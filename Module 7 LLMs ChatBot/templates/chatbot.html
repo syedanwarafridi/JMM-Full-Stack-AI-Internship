@@ -29,16 +29,6 @@
 <body>
     <div class="container mt-5">
         <h1 class="mb-4">ChatGPT-like Chatbot</h1>
-
-        <!-- Document Upload Form -->
-        <form id="document-form" method="POST" action="/upload_document" enctype="multipart/form-data">
-            <div class="form-group">
-                <label for="document">Upload Document:</label>
-                <input type="file" class="form-control-file" name="document" id="document" accept=".txt, .pdf, .docx">
-            </div>
-            <button type="submit" class="btn btn-primary">Upload Document</button>
-        </form>
-
         <!-- Chat Input Form -->
         <form id="chat-form" method="POST" action="/get_response">
             <div class="form-group mt-4">
